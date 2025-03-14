@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Kazakhstan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <style>   
+        html {
+            scroll-behavior: smooth;
+        }
+        .inria-serif-regular {
+          font-family: "Inria Serif", serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+        .dm-serif-text-regular {
+          font-family: "DM Serif Text", serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900 flex">
+    <!-- Sidebar Navbar -->
+    <nav class="bg-[#338196] text-white w-44 h-screen fixed left-0 top-0 flex flex-col py-8 px-6 justify-center">
+    <div class="mb-4">
+        <a href="#home">
+          <img src="../imgs/logo.png" alt="Logo" class="w-40 h-40 mx-auto">
+        </a>
+    </div>
+        <ul class="space-y-4">
+            <li><a href="#home" class="block py-2 px-4 ">Home</a></li>
+            <li><a href="#about" class="block py-2 px-4">About</a></li>
+            <li><a href="#places" class="block py-2 px-4">Places</a></li>
+            <li><a href="#culture" class="block py-2 px-4">Culture</a></li>
+            <li><a href="#food" class="block py-2 px-4">Food</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="ml-44 w-full">
+        <!-- Hero Section -->
+        <section id="home" class="relative w-full min-h-screen bg-cover bg-center flex items-center justify-center text-center px-6"
+            style="background-image: url('https://www.gokitetours.com/wp-content/uploads/2024/05/The-Best-Places-to-Visit-in-Kazakhstan.webp');">
+
+            <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+            
+            <!-- Text Content -->
+            <div class="relative z-10 text-white max-w-3xl">
+                <h2 class="text-5xl font-bold inria-serif-regular">
+                    Explore the Land of Kazakhstan
+                </h2>
+                <p class="mt-4 text-lg drop-shadow-[0_0_3px_rgba(0,0,0,0.8)]">
+                    Discover Kazakhstan's vast steppes, majestic mountains, and rich cultural heritage. From the bustling streets of Almaty to the serene beauty of the Charyn Canyon, every corner holds a new adventure.
+                </p>
+                <a href="#about" class="mt-6 inline-block bg-[#338196] text-white font-semibold py-3 px-6 rounded-lg">
+                    Explore Now
+                </a>
+            </div>
+
+        </section>
+
+        <!-- About Kazakhstan -->
+        <section id="about" class="w-full min-h-screen flex items-center justify-center bg-gray-100 px-6">
+            <div class="w-full max-w-7xl grid grid-cols-1 md:grid-cols-12 items-center gap-8">
+                <!-- Left Side - Text (8 columns) -->
+                <div class="md:col-span-8 text-justify">
+                <h2 class="text-4xl font-semibold dm-serif-text-regular">Welcome to Kazakhstan!</h2>
+                <p class="text-gray-700 mt-6 pr-12" style="text-indent: 1.5em;">
+                    Kazakhstan, the land of the Great Steppe, is a country where ancient traditions and modern life blend seamlessly. Rich in cultural heritage, Kazakh people take pride in their hospitality, often welcoming guests with open arms and warm smiles.  
+                </p>
+                <p class="text-gray-700 mt-4 pr-12">
+                    Food holds a special place in Kazakh culture. Meals are often a communal affair, centered around hearty dishes that reflect the country’s nomadic roots. Signature dishes include <strong>beshbarmak</strong>, a flavorful combination of boiled meat and pasta, and <strong>shashlik</strong>, skewered and grilled meat seasoned to perfection. Fermented mare's milk, known as <strong>kumis</strong>, is a traditional beverage enjoyed for its unique taste and health benefits.  
+                </p>
+                <p class="text-gray-700 mt-4 pr-12">
+                    Traditional music and art are deeply woven into the fabric of Kazakh life. The sounds of the <strong>dombra</strong>, a two-stringed instrument, echo stories of the past, while ornate textiles and intricate patterns found in yurts showcase the country’s artistic craftsmanship.  
+                </p>
+                <p class="text-gray-700 mt-4 pr-12">
+                    Whether through its warm hospitality, rich culinary traditions, or deep connection to nature, Kazakhstan offers a cultural experience that leaves a lasting impression.  
+                </p>
+                </div>
+
+
+                <!-- Right Side - Image (4 columns) -->
+                <div class="md:col-span-4 flex justify-center">
+                    <img src="https://w0.peakpx.com/wallpaper/971/87/HD-wallpaper-astana-bayterek-astana-bayterek-gerd-kazakhstan-ludwig-natgeo-thumbnail.jpg" class="rounded-lg shadow-lg w-full max-w-md">
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Popular Destinations -->
+        <section id="places" class="w-full min-h-screen flex items-center justify-center bg-white text-center px-6">
+            <div class="container mx-auto py-12">
+                <h2 class="text-4xl font-semibold dm-serif-text-regular">Must-Visit Places</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                    <div class="bg-gray-200 p-6 rounded-lg shadow-lg ring-1 ring-[#338196] ring-opacity-100">
+                        <img src="https://content.r9cdn.net/rimg/dimg/e3/31/63ee1832-city-12507-165b57812a2.jpg?width=1366&height=768&xhint=1344&yhint=772&crop=true" class="w-full h-48 object-cover rounded-md" alt="Almaty">
+                        <h3 class="text-xl font-bold mt-4">Almaty</h3>
+                        <p class="text-gray-700 mt-2">A vibrant city surrounded by mountains, offering a mix of modern life and nature.</p>
+                    </div>
+                    <div class="bg-gray-200 p-6 rounded-lg shadow-lg ring-1 ring-[#338196] ring-opacity-100">
+                        <img src="https://www.eyeonasia.gov.sg/images/central-asia/nur-sultan-profile.jpg" class="w-full h-48 object-cover rounded-md" alt="Astana">
+                        <h3 class="text-xl font-bold mt-4">Nur-Sultan</h3>
+                        <p class="text-gray-700 mt-2">The Capital of Kazakhstan, featuring unique architecture and cultural landmarks.</p>
+                    </div>
+                    <div class="bg-gray-200 p-6 rounded-lg shadow-lg ring-1 ring-[#338196] ring-opacity-100">
+                        <img src="https://i.natgeofe.com/n/65b5d84b-c44e-41d0-8ee9-5295e1e6eba5/silkroad_shutterstock_1236828025_HR_2x1.jpg" class="w-full h-48 object-cover rounded-md" alt="Charyn Canyon">
+                        <h3 class="text-xl font-bold mt-4">Charyn Canyon</h3>
+                        <p class="text-gray-700 mt-2">Often called the "Grand Canyon of Kazakhstan," a natural wonder worth visiting.</p>
+                    </div>
+                    <div class="bg-gray-200 p-6 rounded-lg shadow-lg ring-1 ring-[#338196] ring-opacity-100">
+                        <img src="https://images.contentstack.io/v3/assets/blt1306150c2c4003bc/bltbc43558010722211/663af40ee5f2147215ee1547/00-5-facts-about-lake-kaindy-adobe-cropped.jpg" class="w-full h-48 object-cover rounded-md" alt="Lake Kaindy">
+                        <h3 class="text-xl font-bold mt-4">Lake Kaindy</h3>
+                        <p class="text-gray-700 mt-2">A secret jewel known for its entrancing blue waters and submerged vegetation in the Tien Shan Mountains.</p>
+                    </div>
+                    <div class="bg-gray-200 p-6 rounded-lg shadow-lg ring-1 ring-[#338196] ring-opacity-100">
+                        <img src="https://www.remotelands.com/storage/media/986/conversions/b160802079-banner-size.jpg" class="w-full h-48 object-cover rounded-md" alt="Balkash Lake">
+                        <h3 class="text-xl font-bold mt-4">Balkash Lake</h3>
+                        <p class="text-gray-700 mt-2">
+                            One of the largest lakes in Central Asia, Balkash Lake is unique for having both freshwater and saltwater sections. It offers serene landscapes and a peaceful retreat for nature lovers.
+                        </p>
+                    </div>
+                    <div class="bg-gray-200 p-6 rounded-lg shadow-lg ring-1 ring-[#338196] ring-opacity-100">
+                        <img src="https://t3.ftcdn.net/jpg/11/56/69/78/360_F_1156697828_jxkvdJAiRo8LD7JLyVrz5pya1eVuYA7K.jpg" class="w-full h-48 object-cover rounded-md" alt="Turkestan">
+                        <h3 class="text-xl font-bold mt-4">Turkestan</h3>
+                        <p class="text-gray-700 mt-2">
+                            A historic city rich in culture and spirituality, Turkestan is home to the iconic Mausoleum of Khoja Ahmed Yasawi, a UNESCO World Heritage site and a symbol of Kazakh heritage.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Culture & Traditions --> 
+        <section id="culture" class="w-full min-h-screen flex items-center justify-center bg-gray-100 px-6">  
+            <div class="w-full max-w-7xl grid grid-cols-1 md:grid-cols-12 items-center gap-8">  
+                <!-- Left Side - Image (4 columns) -->  
+                <div class="md:col-span-4 flex justify-center">  
+                    <img src="../imgs/kaz-kostum7.jpg" class="rounded-lg shadow-lg w-full max-w-md">  
+                </div>  
+                <!-- Right Side - Text (8 columns) -->  
+                <div class="md:col-span-8 text-left pl-12 text-justify">  
+                    <h2 class="text-4xl font-semibold dm-serif-text-regular">Culture & Traditions</h2>  
+                    <p class="text-gray-700 mt-4 pr-12" style="text-indent: 1.5em;">  
+                        Kazakh culture is deeply rooted in its nomadic past, where traditions of hospitality, respect, and community are highly valued. Guests are treated with the utmost honor, often welcomed with warm smiles and a table full of traditional dishes. This spirit of generosity, known as "qonaqжайлылық," reflects the heart of Kazakh identity.  
+                    </p>  
+                    <p class="text-gray-700 mt-4 pr-12">  
+                        Kazakh culture is widely known for
+                    </p>  
+                    <ul class="list-disc list-inside text-gray-700 mt-2 pr-12 space-y-2">  
+                        <li><strong>Hospitality - </strong> Welcoming guests is a sacred duty, often accompanied by a grand feast.</li>  
+                        <li><strong>Traditional Clothing - </strong> Intricately embroidered garments and distinctive hats reflect regional styles and history.</li>  
+                        <li><strong>Music & Storytelling - </strong> The dombra's melodies and epic poems preserve Kazakh heritage through sound and verse.</li>  
+                        <li><strong>Festivals - </strong> Celebrations like Nauryz mark the arrival of spring with music, games, and communal meals.</li>  
+                        <li><strong>Nomadic Customs - </strong> Practices such as eagle hunting and yurt-building highlight the nation’s deep connection to nature.</li>  
+                    </ul>  
+                    <p class="text-gray-700 mt-4 pr-12">  
+                        From the vibrant festivities of Nauryz, the Kazakh New Year, to age-old customs, Kazakhstan’s traditions continue to thrive, offering a glimpse into a culture where heritage and modern life exist in harmony.  
+                    </p>  
+                </div>  
+            </div>  
+        </section>  
+  
+
+        <!-- Food Section -->
+        <section id="food" class="w-full min-h-screen flex items-center justify-center bg-white text-black text-center px-6 py-24">
+            <div class="max-w-6xl">
+                <!-- Section Title -->
+                <h2 class="text-4xl font-bold mb-6 dm-serif-text-regular">Savor the Flavors of Kazakhstan</h2>
+                <p class="mb-10 text-lg">
+                    Experience the rich culinary heritage of Kazakhstan, where traditional dishes tell stories of the land and its people.
+                </p>
+
+                <!-- Food Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white text-black rounded-lg shadow-lg overflow-hidden ring-4 ring-white ring-opacity-100">
+                        <img src="https://www.friendsofkyrgyzstan.org/assets/images/2021/03/how-to-cook-besh-barmak.jpg" alt="Beshbarmak" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-2xl font-bold">Beshbarmak</h3>
+                            <p class="mt-2 text-sm">
+                                Kazakhstan’s national dish, featuring boiled meat and pasta, served with onion broth.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white text-black rounded-lg shadow-lg overflow-hidden ring-4 ring-white ring-opacity-100">
+                        <img src="https://www.krumpli.co.uk/wp-content/uploads/2022/11/Chicken-Shashlik-Kebab-04-720x720.jpg" alt="Shashlik" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-2xl font-bold">Shashlik</h3>
+                            <p class="mt-2 text-sm">
+                                Skewered and grilled meat, seasoned to perfection — a favorite at gatherings.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white text-black rounded-lg shadow-lg overflow-hidden ring-4 ring-white ring-opacity-100">
+                        <img src="https://i.pinimg.com/736x/1c/84/c4/1c84c4b120fd0f288bd02a4d0afcc3a4.jpg" alt="Kumis" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-2xl font-bold">Kumis</h3>
+                            <p class="mt-2 text-sm">
+                                Fermented mare's milk, a unique drink cherished for its bold taste and health benefits.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white text-black rounded-lg shadow-lg overflow-hidden ring-4 ring-white ring-opacity-100">
+                        <img src="https://www.advantour.com/img/kazakhstan/dishes/syrne.jpg" alt="Syrne" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-2xl font-bold">Syrne</h3>
+                            <p class="mt-2 text-sm">
+                                 A hearty Kazakh stew made with tender lamb or beef, slow-cooked with onions, potatoes, and spices, offering a rich and comforting flavor.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white text-black rounded-lg shadow-lg overflow-hidden ring-4 ring-white ring-opacity-100">
+                        <img src="https://thumbs.dreamstime.com/b/concept-oriental-cuisine-national-uzbek-pilaf-meat-cast-iron-skillet-wooden-table-background-image-141057191.jpg" alt="Kumis" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-2xl font-bold">Plov</h3>
+                            <p class="mt-2 text-sm">
+                                A savory rice dish cooked with succulent meat, carrots, onions, and aromatic spices, traditionally prepared for special gatherings and celebrations.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white text-black rounded-lg shadow-lg overflow-hidden ring-4 ring-white ring-opacity-100">
+                        <img src="https://img.freepik.com/premium-photo/kespe-soup-kullama-beshbarmak-is-national-central-asia-dish-with-rich-broth-veal_162695-22117.jpg" alt="Kumis" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-2xl font-bold">Kespe</h3>
+                            <p class="mt-2 text-sm">
+                                A nourishing noodle soup featuring handmade noodles, tender meat, and a flavorful broth, cherished as a warm and comforting meal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-900 text-white text-center py-4">
+            <p>&copy; 2025 Discover Kazakhstan. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
